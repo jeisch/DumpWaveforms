@@ -38,7 +38,7 @@ class DumpWaveforms: public Tool {
   int wavelength;
   std::fstream outf;
   std::multimap<uint64_t,ADCTrace> *traces;
-
+  int blackhole;
 
 
 };
